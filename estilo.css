@@ -8,6 +8,7 @@
     padding: 15px; 
     border-bottom: 3px solid #32b9cd;
     background-color: black;
+    font-family: sans-serif;
 }
 
 .container {
@@ -76,3 +77,22 @@ li{
     width: 170px;
 }
 
+.footer {
+    padding: 40px 0;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+.footer p {
+    color: #ffff;
+}
+
+li a {
+    color: #e3b062;
+    text-decoration: none;
+    cursor: pointer;
+
+}
