@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
                     <li>Sobre Nós</li>
                     <li>|</li>
                     <li><a href="login.html"> Login</li></a>
-                    <li><a href="cadastro.html">Cadastro</li></a>
+                    <li>Cadastro</li>
                 </ul>
             </div>
         </div>
@@ -31,7 +31,11 @@
     <div class="banner">
         <div class="container">
             <div class="caixa-formulario">
-                <h2>Olá, Seja Bem-Vind3</h2>
+                <h2>Bem-Vindo!</h2>
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Seu nome">
+                </div>
 
                 <div class="campo">
                     <label for="email">E-mail:</label>
@@ -40,10 +44,15 @@
 
                 <div class="campo">
                     <label for="password">Senha:</label>
-                    <input type="password" id="password" placeholder="******">
+                    <input type="password" id="password" placeholder="********">
+                </div>
+
+                <div class="campo">
+                    <label for="confirmacao">Confirmação da senha:</label>
+                    <input type="confirmacao" id="confirmacao" placeholder="********">
                 </div>
                 <br>
-                <button onclick="">Enviar</button>
+                <button onclick="">Cadastrar</button>
 
             </div>
         </div>
